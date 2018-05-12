@@ -8,7 +8,6 @@
 #include <vector>
 #include <bitset>
 
-
 using namespace std;
 
 vector<string> Code;     // Original Code
@@ -230,13 +229,13 @@ void Initialization()
 	OgCode.close();
 }
 
+
 /****************Functions for Decompression*******************************/
 
 //Seperating out the compressed code and dictionary 
 
 void Extraction()
 {
-
 	ifstream Compressed;
 	string Buffer;
 	stringstream temp;
